@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Adrenaline Ⅱ"
+        },
+        "description": {
+            "text": "Gives the following effect on 3 hearts or less.\n(Speed Ⅰ, Strength Ⅰ)"
+        },
+        "icon": {
+            "item": "minecraft:blaze_powder"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:combat/adrenaline/1",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

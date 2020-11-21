@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Precise Aiming"
+        },
+        "description": {
+            "text": "Holding a bow on off-hand enables to Zoom your camera"
+        },
+        "icon": {
+            "item": "minecraft:bow"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:combat",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

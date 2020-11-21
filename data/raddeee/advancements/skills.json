@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Advanced Progresses : Skills",
+            "color": "dark_aqua",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/blocks/iron_ore.png"
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    }
+}

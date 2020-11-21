@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Crafting EXPs! Ⅰ"
+        },
+        "description": {
+            "text": "Craft an Experience Bottle by surrounding a Glass Bottle with one of the following ingredients in a Crafting table.\n(Apple, Wheat, Carrot, Potato, Poisonous Potato, Beetroot, Berries, Sugar Canes, Mushrooms)\n(Worth 1 EXP Bottle)"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "raddeee:exp1"
+            }
+        }
+    },
+    "parent": "raddeee:root"
+}

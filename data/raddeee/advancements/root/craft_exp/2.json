@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Crafting EXPs! Ⅱ"
+        },
+        "description": {
+            "text": "Craft an Experience Bottle by surrounding a Glass Bottle with one of the following ingredients in a Crafting table.\n(Rotten Flesh, Bone, String, Gunpowder, Spider Eye, Beef, Pork, Chicken, Rabbit, Mutton, Fish, Leather, Slime Ball, Nether Wart)\n(Worth 2 EXP Bottles)"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "raddeee:exp2"
+            }
+        }
+    },
+    "parent": "raddeee:root/craft_exp/1"
+}

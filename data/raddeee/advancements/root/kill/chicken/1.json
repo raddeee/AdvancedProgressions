@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Count : Chicken Ⅰ"
+        },
+        "description": {
+            "text": "Kill 10 Chickens \n(Reward : 50 exp)"
+        },
+        "icon": {
+            "item": "minecraft:chicken"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:root/kill",
+	"rewards": {
+        "experience": 50
+    }
+}

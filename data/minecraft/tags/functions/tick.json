@@ -1,0 +1,23 @@
+{
+ "values": [
+  "raddeee:craft",
+  "raddeee:trigger",
+  "raddeee:killcount",
+  "raddeee:vitality/morehearts_func",
+  "raddeee:vitality/survivor_func",
+  "raddeee:vitality/fed_func",
+  "raddeee:combat/adrenaline_func",
+  "raddeee:combat/shield_func",
+  "raddeee:combat/leech_func",
+  "raddeee:combat/aim_func",
+  "raddeee:combat/arrow_func",
+  "raddeee:combat/defuse_func",
+  "raddeee:agility/sprint_func",
+  "raddeee:agility/urban_func",
+  "raddeee:utility/camofulage_func",
+  "raddeee:utility/barricade_func",
+  "raddeee:utility/demolition_func",
+  "raddeee:mining/timber_func",
+  "raddeee:mining/miner_func"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Count : Cow Ⅲ"
+        },
+        "description": {
+            "text": "Kill 100 Cows \n(Reward : 150 exp)"
+        },
+        "icon": {
+            "item": "minecraft:beef"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:root/kill/cow/2",
+	"rewards": {
+        "experience": 150
+    }
+}

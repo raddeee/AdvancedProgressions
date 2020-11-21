@@ -1,0 +1,38 @@
+ {
+        "type": "crafting_shaped",
+        "pattern": [
+            "222",
+            "212",
+            "222"
+        ],
+        "key": {
+            "1": {
+                "item": "minecraft:glass_bottle"
+            },
+            "2": [{
+                "item": "minecraft:apple"
+            },{
+                "item": "minecraft:sweet_berries"
+            },{
+                "item": "minecraft:carrot"
+            },{
+                "item": "minecraft:potato"
+            },{
+                "item": "minecraft:wheat"
+            },{
+                "item": "minecraft:beetroot"
+            },{
+                "item": "minecraft:brown_mushroom"
+            },{
+                "item": "minecraft:red_mushroom"
+            },{
+                "item": "minecraft:sugar_cane"
+            },{
+                "item": "minecraft:poisonous_potato"
+            }]
+        },
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 1
+        }
+    }

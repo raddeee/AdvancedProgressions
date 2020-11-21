@@ -1,0 +1,54 @@
+ {
+        "type": "crafting_shaped",
+        "pattern": [
+            "222",
+            "212",
+            "222"
+        ],
+        "key": {
+            "1": {
+                "item": "minecraft:glass_bottle"
+            },
+            "2": [{
+                "item": "minecraft:rotten_flesh"
+            },{
+                "item": "minecraft:bone"
+            },{
+                "item": "minecraft:gunpowder"
+            },{
+                "item": "minecraft:string"
+            },{
+                "item": "minecraft:bone"
+            },{
+                "item": "minecraft:spider_eye"
+            },{
+                "item": "minecraft:beef"
+            },{
+                "item": "minecraft:porkchop"
+            },{
+                "item": "minecraft:chicken"
+            },{
+                "item": "minecraft:rabbit"
+            },{
+                "item": "minecraft:mutton"
+            },{
+                "item": "minecraft:leather"
+            },{
+                "item": "minecraft:slime_ball"
+            },{
+                "item": "minecraft:cod"
+            },{
+                "item": "minecraft:salmon"
+            },{
+                "item": "minecraft:tropical_fish"
+            },{
+                "item": "minecraft:pufferfish"
+            },{
+                "item": "minecraft:nether_wart"
+            }]
+        },
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 2
+        }
+    }

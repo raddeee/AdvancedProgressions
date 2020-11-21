@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "More Hearts Ⅴ"
+        },
+        "description": {
+            "text": "Adds 10 additional hearts to your Maximum Health"
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:vitality/morehearts/4",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Utility",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Skills related to Utility"
+        },
+        "icon": {
+            "item": "minecraft:magenta_wool"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:skills"
+}

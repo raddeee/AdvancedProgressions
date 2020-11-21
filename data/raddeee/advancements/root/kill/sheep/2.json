@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Count : Sheep Ⅱ"
+        },
+        "description": {
+            "text": "Kill 50 Sheeps \n(Reward : 100 exp)"
+        },
+        "icon": {
+            "item": "minecraft:mutton"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:root/kill/sheep/1",
+	"rewards": {
+        "experience": 100
+    }
+}

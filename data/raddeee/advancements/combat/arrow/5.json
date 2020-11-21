@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Raining Lead Ⅴ"
+        },
+        "description": {
+            "text": "Landed arrows will summon more arrows above itself while inflicting slowness to nearby enemies. (Active)"
+        },
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:combat/arrow/4",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

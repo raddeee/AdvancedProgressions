@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Leech Ⅴ"
+        },
+        "description": {
+            "text": "Gives you the follwing effect (Strength Ⅰ) in addition to Leech Ⅳ"
+        },
+        "icon": {
+            "item": "minecraft:beetroot_soup"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:combat/leech/4",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

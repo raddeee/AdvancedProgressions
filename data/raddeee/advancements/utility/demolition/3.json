@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Demolition Expert Ⅲ"
+        },
+        "description": {
+            "text": "TNTs will have better explosion power\n(Explosion pwr: 4 → 9)\n(also napalm included)"
+        },
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:utility/demolition/2",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

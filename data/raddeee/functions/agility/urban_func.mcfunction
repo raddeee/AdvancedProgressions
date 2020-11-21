@@ -1,0 +1,6 @@
+execute at @a[advancements={raddeee:agility/urban/2 = true, raddeee:agility/sprint/2 = true}, scores={sprint=1000..}] if block ~ ~-1 ~ #raddeee:asphalt run effect give @p minecraft:speed 1 3 true
+execute at @a[advancements={raddeee:agility/urban/2 = true, raddeee:agility/sprint/2 = false, raddeee:agility/sprint/1 = true}, scores={sprint=1000..}] if block ~ ~-1 ~ #raddeee:asphalt run effect give @p minecraft:speed 1 2 true
+execute at @a[advancements={raddeee:agility/urban/2 = true}] if block ~ ~-1 ~ #raddeee:asphalt run effect give @p minecraft:speed 1 1 true
+execute at @a[advancements={raddeee:agility/urban/1 = true, raddeee:agility/urban/2 = false, raddeee:agility/sprint/2 = true}, scores={sprint=1000..}] if block ~ ~-1 ~ #raddeee:asphalt run effect give @p minecraft:speed 1 2 true
+execute at @a[advancements={raddeee:agility/urban/1 = true, raddeee:agility/urban/2 = false, raddeee:agility/sprint/2 = false, raddeee:agility/sprint/1 = true}, scores={sprint=1000..}] if block ~ ~-1 ~ #raddeee:asphalt run effect give @p minecraft:speed 1 1 true
+execute at @a[advancements={raddeee:agility/urban/1 = true, raddeee:agility/urban/2 = false}] if block ~ ~-1 ~ #raddeee:asphalt run effect give @p minecraft:speed 1 0 true

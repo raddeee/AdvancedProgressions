@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Agility",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Skills related to Agility"
+        },
+        "icon": {
+            "item": "minecraft:light_blue_wool"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:skills"
+}

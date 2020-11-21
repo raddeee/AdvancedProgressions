@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Survivor Ⅲ"
+        },
+        "description": {
+            "text": "2 Saturation will be healed once in every 3 min"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:vitality/survivor/2",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Timberrr!!!"
+        },
+        "description": {
+            "text": "Holding a Golden Axe on off-hand enables to chop the whole tree"
+        },
+        "icon": {
+            "item": "minecraft:golden_axe"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:mining",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Crafting EXPs! Ⅲ"
+        },
+        "description": {
+            "text": "Craft an Experience Bottle by surrounding a Glass Bottle with one of the following ingredients in a Crafting table.\n(Blaze Rod, Magma Cream, Ender Pearl, Ghast Tear, Phantom Membrane)\n(Worth 3 EXP Bottle)"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "raddeee:exp3"
+            }
+        }
+    },
+    "parent": "raddeee:root/craft_exp/2"
+}

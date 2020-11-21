@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Count : Spider Ⅰ"
+        },
+        "description": {
+            "text": "Kill 10 Spiders \n(Reward : 75 exp)"
+        },
+        "icon": {
+            "item": "minecraft:spider_eye"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:root/kill",
+	"rewards": {
+        "experience": 75
+    }
+}

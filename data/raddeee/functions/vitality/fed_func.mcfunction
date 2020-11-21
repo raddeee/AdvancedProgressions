@@ -1,0 +1,2 @@
+effect give @a[advancements={raddeee:vitality/fed/2 = true}, scores={saturation = 20}] minecraft:resistance 1 1 true
+effect give @a[advancements={raddeee:vitality/fed/1 = true, raddeee:vitality/fed/2 = false}, scores={saturation = 20}] minecraft:resistance 1 0 true

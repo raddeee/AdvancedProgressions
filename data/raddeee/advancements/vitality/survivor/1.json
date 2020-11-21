@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Survivor Ⅰ"
+        },
+        "description": {
+            "text": "2 Saturation will be healed once in every 5 min\n(2 Saturation\n = 1 Hunger Icon)"
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:vitality",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

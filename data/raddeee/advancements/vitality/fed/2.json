@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Well Fed Ⅱ"
+        },
+        "description": {
+            "text": "Being on full saturation will give you the following effect (Regeneration Ⅱ)"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:vitality/fed/1",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

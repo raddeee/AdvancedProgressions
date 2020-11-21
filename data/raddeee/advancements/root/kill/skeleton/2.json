@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Count : Skeleton Ⅱ"
+        },
+        "description": {
+            "text": "Kill 50 Skeletons \n(Reward : 150 exp)"
+        },
+        "icon": {
+            "item": "minecraft:bone"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:root/kill/skeleton/1",
+	"rewards": {
+        "experience": 150
+    }
+}

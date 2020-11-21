@@ -1,0 +1,26 @@
+{
+        "type": "crafting_shapeless",
+        "ingredients": [
+            {
+                "item": "glass_bottle"
+            },
+            [
+                {
+                    "item": "creeper_head"
+                },
+                {
+                    "item": "zombie_head"
+                },
+                {
+                    "item": "skeleton_skull"
+                },
+                {
+                    "item": "wither_skeleton_skull"
+                }
+            ]
+        ],
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 64
+        }
+    }

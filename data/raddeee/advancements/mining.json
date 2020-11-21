@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Mining",
+            "color": "green"
+        },
+        "description": {
+            "text": "Skills related to Mining"
+        },
+        "icon": {
+            "item": "minecraft:green_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:skills"
+}

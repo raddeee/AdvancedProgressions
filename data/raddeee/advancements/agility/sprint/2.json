@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Sprint Burst Ⅱ"
+        },
+        "description": {
+            "text": "Sprinting for a while will give you the follwing effect. (Speed Ⅱ)"
+        },
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:agility/sprint/1",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

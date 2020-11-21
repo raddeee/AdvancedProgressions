@@ -1,0 +1,28 @@
+ {
+        "type": "crafting_shaped",
+        "pattern": [
+            "222",
+            "212",
+            "222"
+        ],
+        "key": {
+            "1": {
+                "item": "minecraft:glass_bottle"
+            },
+            "2": [{
+                "item": "minecraft:blaze_rod"
+            },{
+                "item": "minecraft:ender_pearl"
+            },{
+                "item": "minecraft:ghast_tear"
+            },{
+                "item": "minecraft:phantom_membrane"
+            },{
+                "item": "minecraft:magma_cream"
+            }]
+        },
+        "result": {
+            "item": "minecraft:experience_bottle",
+            "count": 3
+        }
+    }

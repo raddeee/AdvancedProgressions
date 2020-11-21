@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Orbital Strike"
+        },
+        "description": {
+            "text": "Instead of arrows, Meteors and Lightning will be summoned. (Active)"
+        },
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:combat/arrow/5",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Camofulage Ⅰ"
+        },
+        "description": {
+            "text": "Sneaking in Tall Grass makes you invisible."
+        },
+        "icon": {
+            "item": "minecraft:oak_sapling"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:utility",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

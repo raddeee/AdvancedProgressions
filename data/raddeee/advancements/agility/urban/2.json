@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Urban Walker Ⅱ"
+        },
+        "description": {
+            "text": "You will get the follwing effect on Concrete or Cement blocks. (Speed Ⅱ)\n(Stacks with Sprint Burst!)"
+        },
+        "icon": {
+            "item": "minecraft:gray_concrete_powder"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:agility/urban/1",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

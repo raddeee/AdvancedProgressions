@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Leech Ⅳ"
+        },
+        "description": {
+            "text": "2 Hearts will be healed after dealing 8 hearts of damage (25%)"
+        },
+        "icon": {
+            "item": "minecraft:beetroot_soup"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:combat/leech/3",
+	"rewards": {
+        "function": "raddeee:playsound_exp"
+    }
+}

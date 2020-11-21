@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Kill Count : Pig Ⅲ"
+        },
+        "description": {
+            "text": "Kill 100 Pigs \n(Reward : 150 exp)"
+        },
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+		
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dummy": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "raddeee:root/kill/pig/2",
+	"rewards": {
+        "experience": 150
+    }
+}

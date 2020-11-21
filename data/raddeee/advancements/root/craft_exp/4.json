@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Crafting EXPs! (Finale)"
+        },
+        "description": {
+            "text": "Craft an Experience Bottle with a Glass Bottle and one of the Mob Heads\n(Worth 64 EXP Bottles)"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+		
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "raddeee:exp4"
+            }
+        }
+    },
+    "parent": "raddeee:root/craft_exp/3"
+}

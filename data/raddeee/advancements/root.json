@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Advanced Progresses",
+            "color": "light_purple",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Welcome to the world with Advanced Progresses!"
+        },
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/blocks/iron_ore.png"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
